@@ -81,6 +81,9 @@ Interpretation: compared with head-only, Adapter FT adds trainable low-rank/bloc
 | lab_* | lab_anemia | 56224 | 0.901548 | nan | nan | 58155 | 0.778550 | nan | nan |
 | lab_* | lab_hypoglycemia | 95488 | 0.985316 | nan | nan | 100568 | 0.985586 | 0.986397 | +0.000811 |
 
+Comment (Accuracy, non-`nan` tasks only):  
+- Macro comparison: val benchmark macro=`0.914417` vs adapter macro=`0.929964` (delta `+0.015547`, `+1.70%`, n=10); test benchmark macro=`0.909688` vs adapter macro=`0.934637` (delta `+0.024949`, `+2.74%`, n=11).
+
 ### 4.2 AUROC comparison
 
 | Task group | Task | Val n_examples | Val benchmark AUROC | Val adapter FT AUROC | Val delta AUROC (adapter - benchmark) | Test n_examples | Test benchmark AUROC | Test adapter FT AUROC | Test delta AUROC (adapter - benchmark) |
@@ -100,6 +103,10 @@ Interpretation: compared with head-only, Adapter FT adds trainable low-rank/bloc
 | lab_* | lab_hyponatremia | 64473 | 0.762735 | nan | nan | 67028 | 0.660048 | nan | nan |
 | lab_* | lab_anemia | 56224 | 0.961882 | nan | nan | 58155 | 0.788758 | nan | nan |
 | lab_* | lab_hypoglycemia | 95488 | 0.798876 | nan | nan | 100568 | 0.676055 | 0.779527 | +0.103472 |
+
+Comment (AUROC, non-`nan` tasks only):  
+- Macro comparison: val benchmark macro=`0.748529` vs adapter macro=`0.889311` (delta `+0.140782`, `+18.81%`, n=10); test benchmark macro=`0.643233` vs adapter macro=`0.876234` (delta `+0.233000`, `+36.22%`, n=11).
+- External reference noted in discussion: benchmark macro AUROC `0.745` (official report); current val macro benchmark from this table is `0.748529` (close, but not guaranteed same task/split filtering).
 
 ### 4.3 AUPRC comparison
 
@@ -121,11 +128,11 @@ Interpretation: compared with head-only, Adapter FT adds trainable low-rank/bloc
 | lab_* | lab_anemia | 56224 | nan | nan | nan | 58155 | nan | nan | nan |
 | lab_* | lab_hypoglycemia | 95488 | nan | nan | nan | 100568 | 0.082184 | 0.268363 | +0.186179 |
 
+Comment (AUPRC, non-`nan` tasks only):  
+- Macro comparison: val benchmark macro=`0.264520` vs adapter macro=`0.562637` (delta `+0.298117`, `+112.70%`, n=10); test benchmark macro=`0.229401` vs adapter macro=`0.537124` (delta `+0.307723`, `+134.14%`, n=11).
+- Note: AUPRC percentage lift is sensitive to very small benchmark baselines (e.g., `new_celiac`), so macro delta should be read together with absolute delta.
+
 Comment: update date = 2026-05-02 (aligned with report Section 3.11.1-3.11.3).
-Average uplift summary (computed from non-`nan` tasks only):
-- Accuracy: val average uplift = `+0.015547` (average percentage uplift `+1.79%`, n=10); test average uplift = `+0.024949` (average percentage uplift `+2.99%`, n=11).
-- AUROC: val average uplift = `+0.140782` (average percentage uplift `+21.52%`, n=10); test average uplift = `+0.233000` (average percentage uplift `+39.11%`, n=11).
-- AUPRC: val average uplift = `+0.298117` (average percentage uplift `+1023.49%`, n=10); test average uplift = `+0.307723` (average percentage uplift `+628.82%`, n=11).
 
 ## 5) Best train/val loss table (all tasks)
 
