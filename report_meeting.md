@@ -1,4 +1,4 @@
-#Head-only vs Adapter FT
+# Clmbr-t-base vs Adapter FT
 
 Standalone briefing version for management update.
 
