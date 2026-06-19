@@ -1,0 +1,27 @@
+{
+  "patient_id": 1001,
+  "static_measurements": [],
+  "events": [
+    {
+      "time": "2020-01-02 10:00:00",
+      "measurements": [
+        {
+          "code": "SNOMED/184099003"
+        },
+        {
+          "code": "Visit/IP"
+        }
+      ]
+    },
+    {
+      "time": "2020-01-03 08:30:00",
+      "measurements": [
+        {
+          "code": "LOINC/718-7",
+          "numeric_value": 13.2
+        }
+      ]
+    }
+  ]
+}
+

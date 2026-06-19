@@ -1,0 +1,17 @@
+# Local run outputs
+outputs/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.Python
+.env
+.venv/
+venv/
+
+# Optional patient cache (users generate locally)
+dataset_pt/*.pt
+!dataset_pt/.gitkeep
+
+# IDE
+.idea/
+.vscode/

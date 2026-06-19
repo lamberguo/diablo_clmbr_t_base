@@ -1,0 +1,6 @@
+patient_id,event_time,code,value_num,value_text
+1001,2020-01-02 10:00:00,SNOMED/184099003,,
+1001,2020-01-02 10:00:00,Visit/IP,,
+1001,2020-01-03 08:30:00,LOINC/718-7,13.2,
+1002,2021-05-10 14:20:00,SNOMED/44054006,,Type2_diabetes
+

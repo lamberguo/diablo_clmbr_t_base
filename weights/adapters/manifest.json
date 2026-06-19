@@ -1,0 +1,186 @@
+{
+  "updated_at": "2026-06-18T16:02:02.980855+00:00",
+  "ft_checkpoint_root": "/network/rit/lab/wang_lab/zjguo/FT/checkpoint/ft",
+  "tasks": {
+    "chexpert_b8": {
+      "task": "chexpert",
+      "adapter_dir": "/network/rit/lab/wang_lab/zjguo/diablo_clmbr_t_base/weights/adapters/chexpert_b8",
+      "source_best_checkpoint": "/network/rit/lab/wang_lab/zjguo/FT/checkpoint/ft/chexpert_b8/best_checkpoint",
+      "files": [
+        "adapter_config.pt",
+        "adapter_model.bin",
+        "classifier_head.bin",
+        "adapter_model.pt",
+        "classifier_head.pt"
+      ]
+    },
+    "guo_icu_b8": {
+      "task": "guo_icu",
+      "adapter_dir": "/network/rit/lab/wang_lab/zjguo/diablo_clmbr_t_base/weights/adapters/guo_icu_b8",
+      "source_best_checkpoint": "/network/rit/lab/wang_lab/zjguo/FT/checkpoint/ft/guo_icu_b8/best_checkpoint",
+      "files": [
+        "adapter_config.pt",
+        "adapter_model.bin",
+        "classifier_head.bin",
+        "adapter_model.pt",
+        "classifier_head.pt"
+      ]
+    },
+    "guo_los_b8": {
+      "task": "guo_los",
+      "adapter_dir": "/network/rit/lab/wang_lab/zjguo/diablo_clmbr_t_base/weights/adapters/guo_los_b8",
+      "source_best_checkpoint": "/network/rit/lab/wang_lab/zjguo/FT/checkpoint/ft/guo_los_b8/best_checkpoint",
+      "files": [
+        "adapter_config.pt",
+        "adapter_model.bin",
+        "classifier_head.bin",
+        "adapter_model.pt",
+        "classifier_head.pt"
+      ]
+    },
+    "guo_readmission_b8": {
+      "task": "guo_readmission",
+      "adapter_dir": "/network/rit/lab/wang_lab/zjguo/diablo_clmbr_t_base/weights/adapters/guo_readmission_b8",
+      "source_best_checkpoint": "/network/rit/lab/wang_lab/zjguo/FT/checkpoint/ft/guo_readmission_b8/best_checkpoint",
+      "files": [
+        "adapter_config.pt",
+        "adapter_model.bin",
+        "classifier_head.bin",
+        "adapter_model.pt",
+        "classifier_head.pt"
+      ]
+    },
+    "lab_anemia_b8": {
+      "task": "lab_anemia",
+      "adapter_dir": "/network/rit/lab/wang_lab/zjguo/diablo_clmbr_t_base/weights/adapters/lab_anemia_b8",
+      "source_best_checkpoint": "/network/rit/lab/wang_lab/zjguo/FT/checkpoint/ft/lab_anemia_b8/best_checkpoint",
+      "files": [
+        "adapter_config.pt",
+        "adapter_model.bin",
+        "classifier_head.bin",
+        "adapter_model.pt",
+        "classifier_head.pt"
+      ]
+    },
+    "lab_hyperkalemia_b8": {
+      "task": "lab_hyperkalemia",
+      "adapter_dir": "/network/rit/lab/wang_lab/zjguo/diablo_clmbr_t_base/weights/adapters/lab_hyperkalemia_b8",
+      "source_best_checkpoint": "/network/rit/lab/wang_lab/zjguo/FT/checkpoint/ft/lab_hyperkalemia_b8/best_checkpoint",
+      "files": [
+        "adapter_config.pt",
+        "adapter_model.bin",
+        "classifier_head.bin",
+        "adapter_model.pt",
+        "classifier_head.pt"
+      ]
+    },
+    "lab_hyponatremia_b8": {
+      "task": "lab_hyponatremia",
+      "adapter_dir": "/network/rit/lab/wang_lab/zjguo/diablo_clmbr_t_base/weights/adapters/lab_hyponatremia_b8",
+      "source_best_checkpoint": "/network/rit/lab/wang_lab/zjguo/FT/checkpoint/ft/lab_hyponatremia_b8/best_checkpoint",
+      "files": [
+        "adapter_config.pt",
+        "adapter_model.bin",
+        "classifier_head.bin",
+        "adapter_model.pt",
+        "classifier_head.pt"
+      ]
+    },
+    "lab_thrombocytopenia_b8": {
+      "task": "lab_thrombocytopenia",
+      "adapter_dir": "/network/rit/lab/wang_lab/zjguo/diablo_clmbr_t_base/weights/adapters/lab_thrombocytopenia_b8",
+      "source_best_checkpoint": "/network/rit/lab/wang_lab/zjguo/FT/checkpoint/ft/lab_thrombocytopenia_b8/best_checkpoint",
+      "files": [
+        "adapter_config.pt",
+        "adapter_model.bin",
+        "classifier_head.bin",
+        "adapter_model.pt",
+        "classifier_head.pt"
+      ]
+    },
+    "new_acutemi_b8": {
+      "task": "new_acutemi",
+      "adapter_dir": "/network/rit/lab/wang_lab/zjguo/diablo_clmbr_t_base/weights/adapters/new_acutemi_b8",
+      "source_best_checkpoint": "/network/rit/lab/wang_lab/zjguo/FT/checkpoint/ft/new_acutemi_b8/best_checkpoint",
+      "files": [
+        "adapter_config.pt",
+        "adapter_model.bin",
+        "classifier_head.bin",
+        "adapter_model.pt",
+        "classifier_head.pt"
+      ]
+    },
+    "new_celiac_b8": {
+      "task": "new_celiac",
+      "adapter_dir": "/network/rit/lab/wang_lab/zjguo/diablo_clmbr_t_base/weights/adapters/new_celiac_b8",
+      "source_best_checkpoint": "/network/rit/lab/wang_lab/zjguo/FT/checkpoint/ft/new_celiac_b8/best_checkpoint",
+      "files": [
+        "adapter_config.pt",
+        "adapter_model.bin",
+        "classifier_head.bin",
+        "adapter_model.pt",
+        "classifier_head.pt"
+      ]
+    },
+    "new_hyperlipidemia_b8": {
+      "task": "new_hyperlipidemia",
+      "adapter_dir": "/network/rit/lab/wang_lab/zjguo/diablo_clmbr_t_base/weights/adapters/new_hyperlipidemia_b8",
+      "source_best_checkpoint": "/network/rit/lab/wang_lab/zjguo/FT/checkpoint/ft/new_hyperlipidemia_b8/best_checkpoint",
+      "files": [
+        "adapter_config.pt",
+        "adapter_model.bin",
+        "classifier_head.bin",
+        "adapter_model.pt",
+        "classifier_head.pt"
+      ]
+    },
+    "new_hypertension_b8": {
+      "task": "new_hypertension",
+      "adapter_dir": "/network/rit/lab/wang_lab/zjguo/diablo_clmbr_t_base/weights/adapters/new_hypertension_b8",
+      "source_best_checkpoint": "/network/rit/lab/wang_lab/zjguo/FT/checkpoint/ft/new_hypertension_b8/best_checkpoint",
+      "files": [
+        "adapter_config.pt",
+        "adapter_model.bin",
+        "classifier_head.bin",
+        "adapter_model.pt",
+        "classifier_head.pt"
+      ]
+    },
+    "new_lupus_b8": {
+      "task": "new_lupus",
+      "adapter_dir": "/network/rit/lab/wang_lab/zjguo/diablo_clmbr_t_base/weights/adapters/new_lupus_b8",
+      "source_best_checkpoint": "/network/rit/lab/wang_lab/zjguo/FT/checkpoint/ft/new_lupus_b8/best_checkpoint",
+      "files": [
+        "adapter_config.pt",
+        "adapter_model.bin",
+        "classifier_head.bin",
+        "adapter_model.pt",
+        "classifier_head.pt"
+      ]
+    },
+    "new_pancan_b8": {
+      "task": "new_pancan",
+      "adapter_dir": "/network/rit/lab/wang_lab/zjguo/diablo_clmbr_t_base/weights/adapters/new_pancan_b8",
+      "source_best_checkpoint": "/network/rit/lab/wang_lab/zjguo/FT/checkpoint/ft/new_pancan_b8/best_checkpoint",
+      "files": [
+        "adapter_config.pt",
+        "adapter_model.bin",
+        "classifier_head.bin",
+        "adapter_model.pt",
+        "classifier_head.pt"
+      ]
+    },
+    "lab_hypoglycemia_b8": {
+      "task": "lab_hypoglycemia",
+      "adapter_dir": "/network/rit/lab/wang_lab/zjguo/diablo_clmbr_t_base/weights/adapters/lab_hypoglycemia_b8",
+      "source_best_checkpoint": "/network/rit/lab/wang_lab/zjguo/FT/checkpoint/ft/lab_hypoglycemia_b8/checkpoint-24000",
+      "note": "interim: trainer best by min eval_loss; re-run sync after FT pipeline exports best_checkpoint",
+      "files": [
+        "adapter_config.pt",
+        "adapter_model.bin",
+        "classifier_head.bin"
+      ]
+    }
+  },
+  "skipped": []
+}
