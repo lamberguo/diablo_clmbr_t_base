@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-18T16:02:02.980855+00:00",
+  "updated_at": "2026-06-25T15:58:17.421535+00:00",
   "ft_checkpoint_root": "/network/rit/lab/wang_lab/zjguo/FT/checkpoint/ft",
   "tasks": {
     "chexpert_b8": {
@@ -9,9 +9,7 @@
       "files": [
         "adapter_config.pt",
         "adapter_model.bin",
-        "classifier_head.bin",
-        "adapter_model.pt",
-        "classifier_head.pt"
+        "classifier_head.bin"
       ]
     },
     "guo_icu_b8": {
@@ -21,9 +19,7 @@
       "files": [
         "adapter_config.pt",
         "adapter_model.bin",
-        "classifier_head.bin",
-        "adapter_model.pt",
-        "classifier_head.pt"
+        "classifier_head.bin"
       ]
     },
     "guo_los_b8": {
@@ -33,9 +29,7 @@
       "files": [
         "adapter_config.pt",
         "adapter_model.bin",
-        "classifier_head.bin",
-        "adapter_model.pt",
-        "classifier_head.pt"
+        "classifier_head.bin"
       ]
     },
     "guo_readmission_b8": {
@@ -45,9 +39,7 @@
       "files": [
         "adapter_config.pt",
         "adapter_model.bin",
-        "classifier_head.bin",
-        "adapter_model.pt",
-        "classifier_head.pt"
+        "classifier_head.bin"
       ]
     },
     "lab_anemia_b8": {
@@ -57,9 +49,7 @@
       "files": [
         "adapter_config.pt",
         "adapter_model.bin",
-        "classifier_head.bin",
-        "adapter_model.pt",
-        "classifier_head.pt"
+        "classifier_head.bin"
       ]
     },
     "lab_hyperkalemia_b8": {
@@ -69,9 +59,17 @@
       "files": [
         "adapter_config.pt",
         "adapter_model.bin",
-        "classifier_head.bin",
-        "adapter_model.pt",
-        "classifier_head.pt"
+        "classifier_head.bin"
+      ]
+    },
+    "lab_hypoglycemia_b8": {
+      "task": "lab_hypoglycemia",
+      "adapter_dir": "/network/rit/lab/wang_lab/zjguo/diablo_clmbr_t_base/weights/adapters/lab_hypoglycemia_b8",
+      "source_best_checkpoint": "/network/rit/lab/wang_lab/zjguo/FT/checkpoint/ft/lab_hypoglycemia_b8/best_checkpoint",
+      "files": [
+        "adapter_config.pt",
+        "adapter_model.bin",
+        "classifier_head.bin"
       ]
     },
     "lab_hyponatremia_b8": {
@@ -81,9 +79,7 @@
       "files": [
         "adapter_config.pt",
         "adapter_model.bin",
-        "classifier_head.bin",
-        "adapter_model.pt",
-        "classifier_head.pt"
+        "classifier_head.bin"
       ]
     },
     "lab_thrombocytopenia_b8": {
@@ -93,9 +89,7 @@
       "files": [
         "adapter_config.pt",
         "adapter_model.bin",
-        "classifier_head.bin",
-        "adapter_model.pt",
-        "classifier_head.pt"
+        "classifier_head.bin"
       ]
     },
     "new_acutemi_b8": {
@@ -105,9 +99,7 @@
       "files": [
         "adapter_config.pt",
         "adapter_model.bin",
-        "classifier_head.bin",
-        "adapter_model.pt",
-        "classifier_head.pt"
+        "classifier_head.bin"
       ]
     },
     "new_celiac_b8": {
@@ -117,9 +109,7 @@
       "files": [
         "adapter_config.pt",
         "adapter_model.bin",
-        "classifier_head.bin",
-        "adapter_model.pt",
-        "classifier_head.pt"
+        "classifier_head.bin"
       ]
     },
     "new_hyperlipidemia_b8": {
@@ -129,9 +119,7 @@
       "files": [
         "adapter_config.pt",
         "adapter_model.bin",
-        "classifier_head.bin",
-        "adapter_model.pt",
-        "classifier_head.pt"
+        "classifier_head.bin"
       ]
     },
     "new_hypertension_b8": {
@@ -141,9 +129,7 @@
       "files": [
         "adapter_config.pt",
         "adapter_model.bin",
-        "classifier_head.bin",
-        "adapter_model.pt",
-        "classifier_head.pt"
+        "classifier_head.bin"
       ]
     },
     "new_lupus_b8": {
@@ -153,28 +139,13 @@
       "files": [
         "adapter_config.pt",
         "adapter_model.bin",
-        "classifier_head.bin",
-        "adapter_model.pt",
-        "classifier_head.pt"
+        "classifier_head.bin"
       ]
     },
     "new_pancan_b8": {
       "task": "new_pancan",
       "adapter_dir": "/network/rit/lab/wang_lab/zjguo/diablo_clmbr_t_base/weights/adapters/new_pancan_b8",
       "source_best_checkpoint": "/network/rit/lab/wang_lab/zjguo/FT/checkpoint/ft/new_pancan_b8/best_checkpoint",
-      "files": [
-        "adapter_config.pt",
-        "adapter_model.bin",
-        "classifier_head.bin",
-        "adapter_model.pt",
-        "classifier_head.pt"
-      ]
-    },
-    "lab_hypoglycemia_b8": {
-      "task": "lab_hypoglycemia",
-      "adapter_dir": "/network/rit/lab/wang_lab/zjguo/diablo_clmbr_t_base/weights/adapters/lab_hypoglycemia_b8",
-      "source_best_checkpoint": "/network/rit/lab/wang_lab/zjguo/FT/checkpoint/ft/lab_hypoglycemia_b8/checkpoint-24000",
-      "note": "interim: trainer best by min eval_loss; re-run sync after FT pipeline exports best_checkpoint",
       "files": [
         "adapter_config.pt",
         "adapter_model.bin",
