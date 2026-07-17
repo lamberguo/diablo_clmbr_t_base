@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it using the metadata below and cite the upstream EHRSHOT/CLMBR-T-base work."
+type: software
+title: "diablo-clmbr-t-base"
+authors:
+  - family-names: "Guo"
+    given-names: "Zhijian"
+repository-code: "https://github.com/lamberguo/diablo_clmbr_t_base"
+url: "https://github.com/lamberguo/diablo_clmbr_t_base"
+license: MIT

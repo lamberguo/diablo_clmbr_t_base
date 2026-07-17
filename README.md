@@ -154,7 +154,18 @@ Your obligations when using or redistributing those weights follow Stanford’s 
 
 ## Citation
 
-If you use CLMBR-T-base or EHRSHOT, cite (at minimum):
+If you use this repository in your research, please cite this software:
+
+```bibtex
+@software{guo2026diablo_clmbr_t_base,
+  author = {Guo, Zhijian},
+  title = {diablo-clmbr-t-base},
+  year = {2026},
+  url = {https://github.com/lamberguo/diablo_clmbr_t_base}
+}
+```
+
+Please also cite the upstream EHRSHOT/CLMBR-T-base work:
 
 ```bibtex
 @article{wornow2023ehrshot,
@@ -170,4 +181,3 @@ Additional BibTeX entries may appear on the Hugging Face model card.
 ## Upstream intended use
 
 Per the CLMBR-T-base model card: **research use**; not for real-world clinical or hospital operations without appropriate validation and governance. See the model card for bias, risks, and limitations.
-
